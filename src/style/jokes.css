@@ -1,0 +1,32 @@
+.jokes-list {
+    margin-top: 30px;
+    padding: 10px;
+    color: #334756;
+    
+}
+
+article {
+    margin: 10px;
+    background-color: #ff4c29;
+    color: #082032;
+    padding: 10px;
+    border: 2px solid #082032;
+    border-radius: 7px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+h5, .card p {
+    display: inline;
+}
+
+.card ul {
+ margin-top: 20px   
+}
+
+.card ul>li {
+    margin: 5px;
+    list-style-type: none;
+}

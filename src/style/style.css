@@ -1,0 +1,51 @@
+@import 'jokes.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: #d2d2d2;
+    font-family: cursive;
+}
+
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 10px;
+    border: 2px solid #082032;
+}
+@media screen and (max-width: 500px) {
+    main {
+        font-size: smaller;
+    }
+
+    .jokes-list {
+        padding: 0px;
+    }
+
+    input[type="search"]
+    #inputKeyword, #amountJoke {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+       width: 100%;
+       padding: 10px;
+       margin: auto;
+       margin: 20px 0 30px 0;
+    }  
+}
+
+@media screen and (max-width: 374px) {    
+    .keyword, .amount {
+        display: flex;
+        flex-direction: column;
+    }
+}
